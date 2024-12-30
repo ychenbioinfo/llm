@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "chatbot"
+version = "0.1.0"
+description = ""
+authors = ["Alvin Chen <ychenbioinfo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic-ai = "^0.0.15"
+streamlit = "^1.41.1"
+logfire = "^2.11.0"
+devtools = "^0.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
